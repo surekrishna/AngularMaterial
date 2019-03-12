@@ -5,15 +5,15 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
     {
         path : 'customers',
-        loadChildren : './customers/customers.module#CustomersModule'
+        loadChildren : './modules/customers/customers.module#CustomersModule'
     },
     {
         path : 'messages',
-        loadChildren : './messages/messages.module#MessagesModule'
+        loadChildren : './modules/messages/messages.module#MessagesModule'
     },
     {
         path : 'orders',
-        loadChildren : './orders/orders.module#OrdersModule'
+        loadChildren : './modules/orders/orders.module#OrdersModule'
     },
     {
         path : '',
