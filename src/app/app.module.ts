@@ -12,14 +12,16 @@ import { MatMenuModule } from '@angular/material/menu';
 
 //Routing section
 import { AppRoutingModule } from './app-routing.module';
+import { CustomersModule } from './modules/customers/customers.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,   
+    CustomersModule,
     //Material section
     BrowserAnimationsModule,
     MatButtonModule,
